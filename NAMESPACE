@@ -1,1 +1,4 @@
+exportPattern("^[^\\.]")
+importFrom("graphics", "abline", "par")
+importFrom("stats", "quantile", "var")
 importFrom("mev","fit.gpd")
