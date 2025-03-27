@@ -1,8 +1,8 @@
-\name{ch_pt_ANOVEX}
-\alias{ch_pt_ANOVEX}
-\title{ANOVEX change-point detection}
+\name{ext_ch_pt}
+\alias{ext_ch_pt}
+\title{Extreme change-point detection}
 \usage{
-ch_pt_ANOVEX(Y,X=1:length(Y),kn=trunc(length(Y)/20),method="ANOVEX",grid=seq(quantile(X,0.15,type=1),quantile(X,0.85,type=1),length=sum((as.numeric(names(table(X)))<=quantile(X,0.85))*(as.numeric(names(table(X)))>=quantile(X,0.15)))),plot=FALSE)
+ext_ch_pt(Y,X=1:length(Y),kn=trunc(length(Y)/20),method="ANOVEX",grid,plot=FALSE)
 }
 \description{
 Returns the location of a change-point in the extreme value properties of the underlying distribution for a heavy-tailed data series.
@@ -34,6 +34,4 @@ Girard, S., Opitz, T., Usseglio-Carleve, A., and Yan, C. (2025). Changepoint ide
 }
 \author{
 Antoine Usseglio-Carleve
-}
-\examples{
 }
