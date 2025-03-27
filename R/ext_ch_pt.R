@@ -1,4 +1,4 @@
-ch_pt_ANOVEX=function(Y,X=1:length(Y),kn=trunc(length(Y)/20),method="ANOVEX",grid=seq(quantile(X,0.15,type=1),quantile(X,0.85,type=1),length=sum((as.numeric(names(table(X)))<=quantile(X,0.85))*(as.numeric(names(table(X)))>=quantile(X,0.15)))),plot=FALSE){
+ext_ch_pt=function(Y,X=1:length(Y),kn=trunc(length(Y)/20),method="ANOVEX",grid=seq(quantile(X,0.15,type=1),quantile(X,0.85,type=1),length=sum((as.numeric(names(table(X)))<=quantile(X,0.85))*(as.numeric(names(table(X)))>=quantile(X,0.15)))),plot=FALSE){
 
   n=length(Y)
 
@@ -116,9 +116,9 @@ ch_pt_ANOVEX=function(Y,X=1:length(Y),kn=trunc(length(Y)/20),method="ANOVEX",gri
       u1=quantile(Y1,1-k1/m,type=1)
       u2=quantile(Y2,1-(kn-k1)/(n-m),type=1)
 
-      gpd_est1=fit.gpd(Y1[which(Y1>u1)]-u1,threshold = 0)$estimate
-      gpd_est2=fit.gpd(Y2[which(Y2>u2)]-u2,threshold = 0)$estimate
-      gpd_est=fit.gpd(Y[which(Y>u)]-u,threshold = 0)$estimate
+      gpd_est1=mev::fit.gpd(Y1[which(Y1>u1)]-u1,threshold = 0)$estimate
+      gpd_est2=mev::fit.gpd(Y2[which(Y2>u2)]-u2,threshold = 0)$estimate
+      gpd_est=mev::fit.gpd(Y[which(Y>u)]-u,threshold = 0)$estimate
 
       xi1=gpd_est1[2]
       sigma1=gpd_est1[1]
