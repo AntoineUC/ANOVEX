@@ -5,6 +5,7 @@ Version: 0.1.0
 Author: Antoine Usseglio-Carleve
 Maintainer: Antoine Usseglio-Carleve <antoine.usseglio-carleve@univ-avignon.fr>
 Description: Returns the location of a change-point in the extreme value properties of the underlying distribution for a heavy-tailed data series.
+Depends: R (>= 3.4.0)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
