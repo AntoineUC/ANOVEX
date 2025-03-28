@@ -30,7 +30,7 @@ The value kn is denoted \deqn{n(1-\beta_n)} in the paper given as reference.
 %% ...
 }
 \references{
-Girard, S., Opitz, T., and Usseglio-Carleve, A. (2024). ANOVEX: ANalysis Of Variability for heavy-tailed EXtremes, Electronic Journal of Statistics, 18(2): 5258-5303.
+Girard, S., Opitz, T., and Usseglio-Carleve, A. (2024). ANOVEX: ANalysis Of Variability for heavy-tailed EXtremes, \emph{Electronic Journal of Statistics}, 18(2): 5258-5303.
 }
 \author{
 Antoine Usseglio-Carleve
