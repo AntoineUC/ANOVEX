@@ -28,8 +28,10 @@ Plot of the test statistics if TRUE. Default: FALSE.
 }
 }
 \references{
-Dupuis, D.J., Sun, Y., and Wang, H. J. (2015). Detecting change-points in extremes. Statistics and Its Interface, 8: 19-31.
-Girard, S., Opitz, T., and Usseglio-Carleve, A. (2024). ANOVEX: ANalysis Of Variability for heavy-tailed EXtremes, Electronic Journal of Statistics, 18(2): 5258-5303.
+Dupuis, D.J., Sun, Y., and Wang, H. J. (2015). Detecting change-points in extremes. \emph{Statistics and Its Interface}, 8: 19-31.
+
+Girard, S., Opitz, T., and Usseglio-Carleve, A. (2024). ANOVEX: ANalysis Of Variability for heavy-tailed EXtremes, \emph{Electronic Journal of Statistics}, 18(2): 5258-5303.
+
 Girard, S., Opitz, T., Usseglio-Carleve, A., and Yan, C. (2025). Changepoint identification in heavy-tailed distributions, preprint.
 }
 \author{
